@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.paco.lon2.ImportFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="center_horizontal"
+        android:text="DEBIL VS"
+        android:textColor="@android:color/background_light"
+        android:textSize="42sp"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/containerChampsWeak"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_marginTop="60dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="35dp"
+        android:gravity="center|clip_horizontal"
+        android:text="FUERTE VS"
+        android:textColor="@android:color/background_light"
+        android:textSize="42sp"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/containerChampsStrong"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_gravity="bottom|right|end"
+        android:layout_marginBottom="20dp" />
+
+</FrameLayout>
